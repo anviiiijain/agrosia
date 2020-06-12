@@ -1,2 +1,0 @@
-# agrosia
-a new attempt
