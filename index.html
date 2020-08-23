@@ -16,6 +16,7 @@
     <meta charset="UTF-8">
     <!-- Site Title -->
     <title>Agrosia Overseas - Organic Soya Products</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,500" rel="stylesheet">
     <!--
@@ -46,8 +47,6 @@
                             <a href="about.html">About us</a>
                             <a href="products.html">Our Products</a>
                             <a href="certifications.html">Certifications</a>
-                            <a href="generic.html">Generic</a>
-                            <a href="elements.html">Elements</a>
                         </nav>
                         <div class="menu-bar"><span class="lnr lnr-menu"></span></div>
                     </div>
@@ -56,28 +55,29 @@
         </header>
         <!-- End Header Area -->
         <!-- Start Banner Area -->
-        <section class="banner-area relative">
+        <section class="banner-area relative" style="background-image:url('img/soyabean/StraightSoybeans.jpg');background-repeat: no-repeat;height: 100%;">
             <div class="overlay overlay-bg"></div>
             <div class="container">
                 <div class="row fullscreen align-items-center justify-content-between">
-                    <div class="col-lg-6 col-md-7 col-sm-8">
+                    <!-- <div class="col-lg-5 col-md-5 col-sm-4">
+                        <iframe width="412" height="236" src="https://www.youtube.com/embed/sKYngL51MMc?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <img src="img/soyabean/g3.jpg" alt="" class="img-fluid">
+                    </div> -->
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="text-align: center;">
                         <div class="banner-content">
                             <h1>Welcome to <br> Agrosia Overseas</h1>
                             <p>Central India's best Manufacturer, Exporter of Organic Non-GMO soya products.</p>
                             <a href="#started" class="primary-btn">Get Started<span class="lnr lnr-arrow-down"></span></a>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-4">
-                        <img src="img/soyabean/Hand-holding-soybeans.jpg" alt="" class="img-fluid">
-                    </div>
                 </div>
             </div>
         </section>
         <!-- End Banner Area -->
         <!-- Start studio Area -->
-        <section class="section-gap studio-area" id="started">
+        <section class="section-gap studio-area">
             <div class="overlay overlay-bg"></div>
-            <div class="container">
+            <div class="container" id="started">
                 <div class="row align-items-center">
                     <div class="col-md-4 col-sm-6 text-center">
                         <div class="studio-thumb">
@@ -180,7 +180,6 @@
                     </div>
                 </div>
             </div>
-    </div>
     </section>
     <!-- End Achivement Area -->
     <!-- Start Video Area -->
@@ -198,62 +197,64 @@
     <section class="section-gap skill-area">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-lg-5">
+                <div class="col-lg-12">
                     <div class="skill-content">
                         <h2>Our Strengths</h2>
-                        <p class="mb-30">Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior is often laughed off as “boys
-                            will be boys,” women face higher conduct </p>
-                        <a href="#" class="primary-btn">View More<span class="lnr lnr-arrow-right"></span></a>
                         <br><br>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class='box-hov'>
-                            <div class="col-lg-2 col-3" style="padding: 0px;text-align: center;padding-top: 30px">
-                                <span style="padding: 15px;border: 1px solid;border-radius: 50%;font-size: 30px" class="fa fa-thumbs-up icon-hov"></span>
-                            </div>
-                            <div class="col-lg-9 col-9" style="text-align:justify">
-                                <div style="display:flex;padding-top: 12px;">
-                                    <h4>Quality Assurance</h4>
+                        <div class='row'>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class='box-hov'>
+                                        <div class="col-lg-2 col-3" style="padding: 0px;text-align: center;padding-top: 30px">
+                                            <span style="padding: 15px;border: 1px solid;border-radius: 50%;font-size: 30px" class="fa fa-thumbs-up icon-hov"></span>
+                                        </div>
+                                        <div class="col-lg-9 col-9" style="text-align:justify">
+                                            <div style="display:flex;padding-top: 12px;">
+                                                <h4>Quality</h4>
+                                            </div>
+                                            <p>Agrosia believes in producing & maintaining the best quality of organic products by enforcing high standards during the purchase as well as processing stages. The finished product goes through rigorous quality checks and meets certified standards.</p>
+                                        </div>
+                                    </div>
+            
+                                    <div class='box-hov'>
+                                        <div class="col-lg-2 col-3" style="padding: 0px;text-align: center;padding-top: 30px">
+                                            <span style="padding: 15px;border: 1px solid;border-radius: 50%;font-size: 30px" class="fa fa-check icon-hov"></span>
+                                        </div>
+                                        <div class="col-lg-9 col-9" style="text-align:justify">
+                                            <div style="display:flex;padding-top: 12px;">
+                                                <h4>Organic</h4>
+                                            </div>
+                                            <p>At Agrosia Overseas, the Organic & Non-GMO division functions under a wing of officers who understand the importance of Organic Food at International levels thus maintaining the purity from purchased Organic goods to Organic finished product.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior.</p>
                             </div>
-                        </div>
-
-                        <div class='box-hov'>
-                            <div class="col-lg-2 col-3" style="padding: 0px;text-align: center;padding-top: 30px">
-                                <span style="padding: 15px;border: 1px solid;border-radius: 50%;font-size: 30px" class="fa fa-check icon-hov"></span>
-                            </div>
-                            <div class="col-lg-9 col-9" style="text-align:justify">
-                                <div style="display:flex;padding-top: 12px;">
-                                    <h4>Organic Soya Seeds</h4>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class='box-hov'>
+                                        <div class="col-lg-2 col-3" style="padding: 0px;text-align: center;padding-top: 30px">
+                                            <span style="padding: 15px;border: 1px solid;border-radius: 50%;font-size: 30px" class="fa fa-heart icon-hov"></span>
+                                        </div>
+                                        <div class="col-lg-9 col-9" style="text-align:justify">
+                                            <div style="display:flex;padding-top: 12px;">
+                                                <h4>Hygenic</h4>
+                                            </div>
+                                            <p>Clealiness and maintaining Hygeine are the most serious practices being monitored at Agrosia, our officers ensure our process to be in regulations with FSSAI, USFDA, ISO(Organic division) and all international Food Safety Acts to provide utmost Hygeine.</p>
+                                        </div>
+                                    </div>
+            
+                                    <div class='box-hov'>
+                                        <div class="col-lg-2 col-3" style="padding: 0px;text-align: center;padding-top: 30px">
+                                            <span style="padding: 15px;border: 1px solid;border-radius: 50%;font-size: 30px" class="fa fa-globe icon-hov"></span>
+                                        </div>
+                                        <div class="col-lg-9 col-9" style="text-align:justify">
+                                            <div style="display:flex;padding-top: 12px;">
+                                                <h4>Nutritional</h4>
+                                            </div>
+                                            <p>We believe its our duty to maintain the Natural Nutritional value of crops, and preserve them during our complete process. Our R&D Team works continuously to maintain the latest technologies to preserve the Nutritional value all the way to its consumers.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior.</p>
-                            </div>
-                        </div>
-
-                        <div class='box-hov'>
-                            <div class="col-lg-2 col-3" style="padding: 0px;text-align: center;padding-top: 30px">
-                                <span style="padding: 15px;border: 1px solid;border-radius: 50%;font-size: 30px" class="fa fa-globe icon-hov"></span>
-                            </div>
-                            <div class="col-lg-9 col-9" style="text-align:justify">
-                                <div style="display:flex;padding-top: 12px;">
-                                    <h4>Best in Class Infracture</h4>
-                                </div>
-                                <p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior.</p>
-                            </div>
-                        </div>
-
-                        <div class='box-hov'>
-                            <div class="col-lg-2 col-3" style="padding: 0px;text-align: center;padding-top: 30px">
-                                <span style="padding: 15px;border: 1px solid;border-radius: 50%;font-size: 30px" class="fa fa-group icon-hov"></span>
-                            </div>
-                            <div class="col-lg-9 col-9" style="text-align:justify">
-                                <div style="display:flex;padding-top: 12px;">
-                                    <h4>Largest Farmer Network</h4>
-                                </div>
-                                <p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior.</p>
                             </div>
                         </div>
                     </div>
@@ -263,7 +264,7 @@
     </section>
     <!-- End Skill Area -->
     <!-- Start Carousel Area -->
-    <section class="section-gap carousel-area">
+    <!-- <section class="section-gap carousel-area">
         <div class="overlay overlay-bg heading-choose">Why Choose us?</div>
         <div class="active-bottle-carousel">
             <div class="item">
@@ -374,11 +375,11 @@
 
 
         </div>
-    </section>
+    </section> -->
     <!-- End Carousel Area -->
 
     <!-- Start Contact Area -->
-    <section class="contact-area">
+    <!-- <section class="contact-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
@@ -402,7 +403,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- End Contact Area -->
 
     <!-- Start Subscription Area -->
@@ -413,11 +414,11 @@
     <footer class="section-gap footer-widget-area">
         <div class="overlay overlay-bg"></div>
         <div class="container">
-            <div class="subscription-area">
+            <!-- <div class="subscription-area">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div id="mc_embed_signup">
-                            <form target="_blank" novalidate action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01" method="get" class="subscription relative">
+                            <form target="_blank" novalidate onclick="sendEmail()" method="get" class="subscription relative">
                                 <input type="email" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required>
                                 <div style="position: absolute; left: -5000px;">
                                     <input type="text" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="">
@@ -428,42 +429,42 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-footer-widget">
-                        <h6 class="text-white text-uppercase mb-20">About Agency</h6>
-                        <ul class="footer-nav">
+                        <h6 class="text-white text-uppercase mb-20"><a style="color: white;" href='about.html'>About Agrosia</a></h6>
+                        <!-- <ul class="footer-nav">
                             <li><a href="#">Managed Website</a></li>
                             <li><a href="#">Manage Reputation</a></li>
                             <li><a href="#">Power Tools</a></li>
                             <li><a href="#">Marketing Service</a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-footer-widget">
-                        <h6 class="text-white text-uppercase mb-20">Navigation Links</h6>
-                        <ul class="footer-nav">
+                        <h6 class="text-white text-uppercase mb-20"><a style="color: white;" href="products.html">Our Products</a></h6>
+                        <!-- <ul class="footer-nav">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Main Features</a></li>
                             <li><a href="#">Offered Services</a></li>
                             <li><a href="#">Latest Portfolio</a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-footer-widget">
-                        <h6 class="text-white text-uppercase mb-20">Navigation Links</h6>
-                        <ul class="footer-nav">
+                        <h6 class="text-white text-uppercase mb-20"><a style="color: white;" href="certifications.html">Our Certifications</a></h6>
+                        <!-- <ul class="footer-nav">
                             <li><a href="#">Works & Builders</a></li>
                             <li><a href="#">Works & Wordpress</a></li>
                             <li><a href="#">Works & Templates</a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
+                <!-- <div class="col-lg-3 col-sm-6">
                     <div class="single-footer-widget">
                         <h6 class="text-white text-uppercase mb-20">Instafeed</h6>
                         <ul class="instafeed d-flex flex-wrap">
@@ -477,15 +478,14 @@
                             <li><img src="img/i8.jpg" alt=""></li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
-                <p class="footer-text m-0">Copyright &copy; 2018 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/">Colorlib</a></p>
+                <p class="footer-text m-0">Copyright &copy; 2020 All rights reserved | Agrosia Overseas</p>
                 <div class="footer-social d-flex align-items-center">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-dribbble"></i></a>
-                    <a href="#"><i class="fa fa-behance"></i></a>
+                    <a href="https://www.facebook.com/agrosiaoverseas/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/agrosiaoverseas"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UC2Hgl95xZ7G--HFvJ2TX2iQ"><i class="fa fa-youtube"></i></a>
                 </div>
             </div>
         </div>

@@ -2342,7 +2342,7 @@ nav a:hover {
 
 .video-area {
     position: relative;
-    background: url(../img/logo/agrosia.png) no-repeat center center/cover;
+    background: url(../img/logo/agrosia-1.png) no-repeat center center/cover;
 }
 
 .video-area .overlay-bg {
@@ -2554,7 +2554,7 @@ nav a:hover {
 
 .footer-widget-area {
     position: relative;
-    background: url(../img/f-bg.jpg) no-repeat center center/cover;
+    background: url(../img/soyabean/g3.jpg) no-repeat center center/cover;
 }
 
 .footer-widget-area .overlay-bg {
@@ -2658,7 +2658,7 @@ nav a:hover {
 
 .about-generic-area {
     position: relative;
-    background: url(../img/g-bg.jpg) no-repeat center center/cover;
+    background: url(../img/soyabean/StraightSoybeans.jpg) no-repeat center center/cover;
 }
 
 .about-generic-area .overlay-bg {
@@ -2725,4 +2725,34 @@ nav a:hover {
 .achivement-area .single-achivement-dark {
     margin-top: 30px;
     text-align: center;
+}
+
+.single-achivement {
+    display: inline;
+}
+
+.single-achivement .img-top {
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.single-achivement:hover .img-top {
+    display: inline;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.single-achivement .img-back {
+    display: inline;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.single-achivement:hover .img-back {
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
